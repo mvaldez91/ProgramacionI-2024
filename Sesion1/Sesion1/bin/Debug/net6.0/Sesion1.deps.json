@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sesion1/1.0.0": {
+        "dependencies": {
+          "MiBiblioteca": "1.0.0"
+        },
+        "runtime": {
+          "Sesion1.dll": {}
+        }
+      },
+      "MiBiblioteca/1.0.0": {
+        "runtime": {
+          "MiBiblioteca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sesion1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiBiblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

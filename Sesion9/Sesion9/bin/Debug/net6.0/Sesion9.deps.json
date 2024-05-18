@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sesion9/1.0.0": {
+        "dependencies": {
+          "ModificadoresAcceso": "1.0.0"
+        },
+        "runtime": {
+          "Sesion9.dll": {}
+        }
+      },
+      "ModificadoresAcceso/1.0.0": {
+        "runtime": {
+          "ModificadoresAcceso.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sesion9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModificadoresAcceso/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
