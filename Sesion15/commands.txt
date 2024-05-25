@@ -1,0 +1,14 @@
+
+dotnet new console  
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 7.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 7.0.0
+dotnet restore      
+dotnet run          
+
+#Instalar si el comando dotnet ef no funcion
+dotnet tool install --global dotnet-ef --version 7.*
+
+dotnet ef migrations add <nombre_migracion>
+
+# Actualizar luego de una migracion.
+dotnet ef database update
